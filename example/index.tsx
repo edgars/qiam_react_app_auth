@@ -6,7 +6,7 @@ import "./styles.css"; // Custom CSS for additional styling
 
 const oidcConfig = {
     authority: "https://usw2.auth.ac/auth/realms/skalena",
-    client_id: "lucree",
+    client_id: process.env.REACT_APP_CLIENT_ID,
     redirect_uri: "/",
 };
 

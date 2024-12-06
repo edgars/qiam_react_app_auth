@@ -547,7 +547,7 @@ var _bootstrapMinCss = require("bootstrap/dist/css/bootstrap.min.css"); // Impor
 var _stylesCss = require("./styles.css"); // Custom CSS for additional styling
 const oidcConfig = {
     authority: "https://usw2.auth.ac/auth/realms/skalena",
-    client_id: "lucree",
+    client_id: "lucree-local",
     redirect_uri: "/"
 };
 function InitialPage() {
@@ -920,11 +920,11 @@ root.render(/*#__PURE__*/ (0, _reactDefault.default).createElement((0, _.AuthPro
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"blOo6","react-dom/client":"7Tf0L","../src/.":"lanec","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","bootstrap/dist/css/bootstrap.min.css":"i5LP7","./styles.css":"7N9bM"}],"blOo6":[function(require,module,exports) {
+},{"react":"4hNZ0","react-dom/client":"cFIuY","../src/.":"4TwU9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","bootstrap/dist/css/bootstrap.min.css":"i5LP7","./styles.css":"7N9bM"}],"4hNZ0":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react.development.js");
 
-},{"./cjs/react.development.js":"Ztnvj"}],"Ztnvj":[function(require,module,exports) {
+},{"./cjs/react.development.js":"liK8j"}],"liK8j":[function(require,module,exports) {
 /**
  * @license React
  * react.development.js
@@ -2789,7 +2789,7 @@ module.exports = require("./cjs/react.development.js");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"7Tf0L":[function(require,module,exports) {
+},{}],"cFIuY":[function(require,module,exports) {
 "use strict";
 var m = require("react-dom");
 var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
@@ -2810,7 +2810,7 @@ exports.hydrateRoot = function(c, h, o) {
     }
 };
 
-},{"react-dom":"cQUYh"}],"cQUYh":[function(require,module,exports) {
+},{"react-dom":"2uvsK"}],"2uvsK":[function(require,module,exports) {
 "use strict";
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === "undefined" || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== "function") return;
@@ -2826,7 +2826,7 @@ function checkDCE() {
 }
 module.exports = require("./cjs/react-dom.development.js");
 
-},{"./cjs/react-dom.development.js":"geaXh"}],"geaXh":[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":"etgDO"}],"etgDO":[function(require,module,exports) {
 /**
  * @license React
  * react-dom.development.js
@@ -23820,11 +23820,11 @@ module.exports = require("./cjs/react-dom.development.js");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"react":"blOo6","scheduler":"6Dfpp"}],"6Dfpp":[function(require,module,exports) {
+},{"react":"4hNZ0","scheduler":"hSRg8"}],"hSRg8":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/scheduler.development.js");
 
-},{"./cjs/scheduler.development.js":"bcBVr"}],"bcBVr":[function(require,module,exports) {
+},{"./cjs/scheduler.development.js":"hREOP"}],"hREOP":[function(require,module,exports) {
 /**
  * @license React
  * scheduler.development.js
@@ -24278,7 +24278,7 @@ module.exports = require("./cjs/scheduler.development.js");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"lanec":[function(require,module,exports) {
+},{}],"4TwU9":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "hasAuthParams", ()=>(0, _utils.hasAuthParams));
@@ -24294,11 +24294,11 @@ parcelHelpers.exportAll(_withAuth, exports);
 var _withAuthenticationRequired = require("./withAuthenticationRequired");
 parcelHelpers.exportAll(_withAuthenticationRequired, exports);
 
-},{"./AuthContext":"7bm29","./AuthProvider":"hP9jF","./useAuth":"8EyEb","./utils":"c1HLV","./withAuth":"b7ILi","./withAuthenticationRequired":"6XNQ9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7bm29":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$dc00 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./AuthContext":"bHeUq","./AuthProvider":"6RAqd","./useAuth":"iVTMU","./utils":"4HmAs","./withAuth":"bhr7K","./withAuthenticationRequired":"eZDDU","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bHeUq":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$c955 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$dc00.prelude(module);
+$parcel$ReactRefreshHelpers$c955.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -24309,12 +24309,12 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 const AuthContext = (0, _reactDefault.default).createContext(undefined);
 AuthContext.displayName = "AuthContext";
 
-  $parcel$ReactRefreshHelpers$dc00.postlude(module);
+  $parcel$ReactRefreshHelpers$c955.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"blOo6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gkKU3":[function(require,module,exports) {
+},{"react":"4hNZ0","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -24928,11 +24928,11 @@ module.exports = require("./cjs/react-refresh-runtime.development.js");
     exports.setSignature = setSignature;
 })();
 
-},{}],"hP9jF":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$8fe7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"6RAqd":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$aa58 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$8fe7.prelude(module);
+$parcel$ReactRefreshHelpers$aa58.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -25115,7 +25115,7 @@ const AuthProvider = (props)=>{
         value: contextValue,
         children: children
     }, void 0, false, {
-        fileName: "/Users/edgar/Documents/skalena/tech/lucree-apps/react-oidc-context/src/AuthProvider.tsx",
+        fileName: "/Users/edgar/Documents/skalena/tech/lucree-apps/qiam_react_app_auth/src/AuthProvider.tsx",
         lineNumber: 303,
         columnNumber: 9
     }, undefined);
@@ -25125,16 +25125,16 @@ _c = AuthProvider;
 var _c;
 $RefreshReg$(_c, "AuthProvider");
 
-  $parcel$ReactRefreshHelpers$8fe7.postlude(module);
+  $parcel$ReactRefreshHelpers$aa58.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"2ylt4","react":"blOo6","oidc-client-ts":"kNzXP","./AuthContext":"7bm29","./AuthState":"9FKUa","./reducer":"3Cua8","./utils":"c1HLV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2ylt4":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"3on6a","react":"4hNZ0","oidc-client-ts":"lbuk3","./AuthContext":"bHeUq","./AuthState":"PtGmB","./reducer":"9LAdt","./utils":"4HmAs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3on6a":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
-},{"./cjs/react-jsx-dev-runtime.development.js":"5BQJu"}],"5BQJu":[function(require,module,exports) {
+},{"./cjs/react-jsx-dev-runtime.development.js":"6wK2V"}],"6wK2V":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-dev-runtime.development.js
@@ -25976,7 +25976,7 @@ module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"react":"blOo6"}],"kNzXP":[function(require,module,exports) {
+},{"react":"4hNZ0"}],"lbuk3":[function(require,module,exports) {
 "use strict";
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
@@ -29014,7 +29014,7 @@ var IndexedDbDPoPStore = class {
     }
 };
 
-},{"jwt-decode":"d0OnG"}],"d0OnG":[function(require,module,exports) {
+},{"jwt-decode":"gCbZw"}],"gCbZw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "InvalidTokenError", ()=>InvalidTokenError);
@@ -29068,7 +29068,7 @@ function jwtDecode(token, options) {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9FKUa":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"PtGmB":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "initialAuthState", ()=>initialAuthState);
@@ -29077,7 +29077,7 @@ const initialAuthState = {
     isAuthenticated: false
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3Cua8":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9LAdt":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "reducer", ()=>reducer);
@@ -29127,7 +29127,7 @@ const reducer = (state, action)=>{
     }
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"c1HLV":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4HmAs":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "hasAuthParams", ()=>hasAuthParams);
@@ -29149,11 +29149,11 @@ const normalizeErrorFn = (fallbackMessage)=>(error)=>{
 const signinError = normalizeErrorFn("Sign-in failed");
 const signoutError = normalizeErrorFn("Sign-out failed");
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8EyEb":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$e13a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iVTMU":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$9efa = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$e13a.prelude(module);
+$parcel$ReactRefreshHelpers$9efa.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -29168,16 +29168,16 @@ const useAuth = ()=>{
     return context;
 };
 
-  $parcel$ReactRefreshHelpers$e13a.postlude(module);
+  $parcel$ReactRefreshHelpers$9efa.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"blOo6","./AuthContext":"7bm29","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b7ILi":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$53b0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react":"4hNZ0","./AuthContext":"bHeUq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bhr7K":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$5190 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$53b0.prelude(module);
+$parcel$ReactRefreshHelpers$5190.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -29200,7 +29200,7 @@ function withAuth(Component) {
             ...props,
             auth: auth
         }, void 0, false, {
-            fileName: "/Users/edgar/Documents/skalena/tech/lucree-apps/react-oidc-context/src/withAuth.tsx",
+            fileName: "/Users/edgar/Documents/skalena/tech/lucree-apps/qiam_react_app_auth/src/withAuth.tsx",
             lineNumber: 17,
             columnNumber: 16
         }, this);
@@ -29214,16 +29214,16 @@ function withAuth(Component) {
     return C;
 }
 
-  $parcel$ReactRefreshHelpers$53b0.postlude(module);
+  $parcel$ReactRefreshHelpers$5190.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"2ylt4","react":"blOo6","./useAuth":"8EyEb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"6XNQ9":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$73f7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"3on6a","react":"4hNZ0","./useAuth":"iVTMU","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"eZDDU":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$f38f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$73f7.prelude(module);
+$parcel$ReactRefreshHelpers$f38f.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -29255,7 +29255,7 @@ const withAuthenticationRequired = (Component, options = {})=>{
         return auth.isAuthenticated ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Component, {
             ...props
         }, void 0, false, {
-            fileName: "/Users/edgar/Documents/skalena/tech/lucree-apps/react-oidc-context/src/withAuthenticationRequired.tsx",
+            fileName: "/Users/edgar/Documents/skalena/tech/lucree-apps/qiam_react_app_auth/src/withAuthenticationRequired.tsx",
             lineNumber: 54,
             columnNumber: 39
         }, undefined) : OnRedirecting();
@@ -29269,11 +29269,11 @@ const withAuthenticationRequired = (Component, options = {})=>{
     return C;
 };
 
-  $parcel$ReactRefreshHelpers$73f7.postlude(module);
+  $parcel$ReactRefreshHelpers$f38f.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"2ylt4","react":"blOo6","./useAuth":"8EyEb","./utils":"c1HLV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"i5LP7":[function() {},{}],"7N9bM":[function() {},{}]},["hi2Fo","kjLP2"], "kjLP2", "parcelRequired98c")
+},{"react/jsx-dev-runtime":"3on6a","react":"4hNZ0","./useAuth":"iVTMU","./utils":"4HmAs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"i5LP7":[function() {},{}],"7N9bM":[function() {},{}]},["hi2Fo","kjLP2"], "kjLP2", "parcelRequired98c")
 
 //# sourceMappingURL=index.6fa4ea68.js.map
